@@ -8,41 +8,91 @@ const projects = [
     title: "Reserve Management Automation",
     description:
       "Mission-critical system for TCMB (Central Bank of Turkey) to manage foreign currency reserves, gold operations, and risk management. Handles all types of indebtedness operations including foreign currency, securities, and derivative product purchases. Built with React, Java and microservice architecture.",
-    src: "rock.jpg",
-    link: "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/about+the+central+bank/background-information/tcmb-logo.png",
+    link: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
     color: "#5196fd",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.tcmb.gov.tr",
+  },
+  {
+    title: "Central Bank Correspondent Tracking",
+    description:
+      "Automation system tracking bank correspondents operating in the market, following and updating the accounts belonging to those banks, and handling all necessary transactions. Built with React.js and Java at TCMB.",
+    link: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop",
+    color: "#34d399",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.tcmb.gov.tr",
   },
   {
     title: "BIST Swap Automation",
     description:
-      "Automation system for principal clearing and daily netting transactions within the BIST swap market. Digitized previously manual processes into a reliable and auditable platform. Built with React.js and Java at TCMB.",
-    src: "tree.jpg",
-    link: "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/about+the+central+bank/background-information/tcmb-logo.png",
+      "Automation of principal clearing and daily netting transactions carried out manually within the scope of the BIST swap market. Digitized previously manual financial processes into a reliable and auditable platform. Built with React.js and Java.",
+    link: "https://images.unsplash.com/photo-1642790551116-18e4f3b3de44?w=800&auto=format&fit=crop",
     color: "#8f89ff",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.tcmb.gov.tr",
   },
   {
+    title: "Affected User Dashboard",
+    description:
+      "Real-time analytics dashboard at Huawei that allows customers to specify parameters and run ad-hoc queries to display information about customers affected during a network outage or similar events. Built with React.js, Java and Hadoop.",
+    link: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+    color: "#ed649e",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
+  },
+  {
+    title: "Discovery",
+    description:
+      "Big data platform developed at Huawei to build programs related to wireless data and prepare maps in the formats that customers require. Enables large-scale wireless network data analysis and visualization.",
+    link: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&auto=format&fit=crop",
+    color: "#f59e0b",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
+  },
+  {
+    title: "SmartCare",
+    description:
+      "Big data platform at Huawei used to develop programs related to cell data and prepare dashboards in the formats that customers require. Provides deep insight into mobile network performance metrics.",
+    link: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&auto=format&fit=crop",
+    color: "#10b981",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
+  },
+  {
+    title: "Algeria Mobilis Network Analytics",
+    description:
+      "Provides general view of the Mobilis Network in Algeria, behavior analysis of subscribers, and ATM project progress preview. Built with React.js, Java and Hadoop at Huawei.",
+    link: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop",
+    color: "#f43f5e",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
+  },
+  {
     title: "BigData Enabling Platform",
     description:
-      "Big data IDE and enabling platform built at Huawei. Developed using Node.js, React.js, Eclipse Theia, Fusion Insight, GraphQL, Prisma and Scala — empowering data engineers to process large-scale datasets with a modern IDE experience.",
-    src: "water.jpg",
-    link: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+      "Big data IDE enabling platform built at Huawei using Node.js, React.js, Eclipse Theia, Fusion Insight, GraphQL, Prisma and Scala — empowering data engineers to process large-scale datasets with a modern IDE experience.",
+    link: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop",
     color: "#00bcd4",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
   },
   {
-    title: "Affected User Dashboard",
+    title: "TIE — File Transformation System",
     description:
-      "Real-time analytics dashboard allowing customers to specify parameters and run ad-hoc queries to identify customers affected during network outages or similar events. Built at Huawei with React.js, Java and Hadoop.",
-    src: "house.jpg",
-    link: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
-    color: "#ed649e",
+      "System to transform files from unstructured to structured format (like log files). Built using Hibernate, Spring Boot, Maven and React.js at Huawei. Enables automated data pipeline processing.",
+    link: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop",
+    color: "#a78bfa",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
+  },
+  {
+    title: "Guanyn — RESTful Middleware",
+    description:
+      "Restful Service provider and middle-layer API to serve various services to in-company applications at Gevision Group. Built with Java and powered by Dropwizard framework for high-performance service delivery.",
+    link: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&auto=format&fit=crop",
+    color: "#fb923c",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://github.com/alperenkaraca",
   },
 ];
 
@@ -102,7 +152,7 @@ export default function Projects() {
       <main className="bg-black" ref={container}>
         <section className="text-white w-full bg-slate-950">
           {projects.map((project, i) => {
-            const targetScale = 1 - (projects.length - i) * 0.05;
+            const targetScale = 1 - (projects.length - i) * 0.03;
             return (
               <Card
                 key={`p_${i}`}
@@ -112,7 +162,7 @@ export default function Projects() {
                 color={project.color}
                 description={project.description}
                 progress={scrollYProgress}
-                range={[i * 0.25, 1]}
+                range={[i / projects.length, 1]}
                 targetScale={targetScale}
                 githubLink={project.githubLink}
                 liveLink={project.liveLink}
