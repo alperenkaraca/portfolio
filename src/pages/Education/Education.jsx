@@ -15,24 +15,14 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Bachelor's Degree, Computer Science",
+      school: "Kadir Has University",
+      mascot: "🎓",
+      year: "2011 - 2015",
+      achievements: ["Computer Science", "Istanbul, Turkey"],
+      skills: ["Algorithms", "Data Structures", "Software Engineering", "Databases", "Operating Systems"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed a comprehensive Computer Science program with focus on software development, algorithms, and systems programming at one of Istanbul's leading private universities.",
     },
   ];
 

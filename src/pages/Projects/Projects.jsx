@@ -5,44 +5,44 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Reserve Management Automation",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "Mission-critical system for TCMB (Central Bank of Turkey) to manage foreign currency reserves, gold operations, and risk management. Handles all types of indebtedness operations including foreign currency, securities, and derivative product purchases. Built with React, Java and microservice architecture.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/about+the+central+bank/background-information/tcmb-logo.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.tcmb.gov.tr",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "BIST Swap Automation",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "Automation system for principal clearing and daily netting transactions within the BIST swap market. Digitized previously manual processes into a reliable and auditable platform. Built with React.js and Java at TCMB.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/about+the+central+bank/background-information/tcmb-logo.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.tcmb.gov.tr",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "BigData Enabling Platform",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Big data IDE and enabling platform built at Huawei. Developed using Node.js, React.js, Eclipse Theia, Fusion Insight, GraphQL, Prisma and Scala — empowering data engineers to process large-scale datasets with a modern IDE experience.",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    link: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+    color: "#00bcd4",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Affected User Dashboard",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Real-time analytics dashboard allowing customers to specify parameters and run ad-hoc queries to identify customers affected during network outages or similar events. Built at Huawei with React.js, Java and Hadoop.",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/alperenkaraca",
+    liveLink: "https://www.huawei.com",
   },
 ];
 
