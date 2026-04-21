@@ -2,13 +2,23 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import proj1 from "@/assets/images/proj1.jpg";
+import proj2 from "@/assets/images/proj2.jpg";
+import proj3 from "@/assets/images/proj3.jpg";
+import proj4 from "@/assets/images/proj4.jpg";
+import proj5 from "@/assets/images/proj5.jpg";
+import proj6 from "@/assets/images/proj6.jpg";
+import proj7 from "@/assets/images/proj7.jpg";
+import proj8 from "@/assets/images/proj8.jpg";
+import proj9 from "@/assets/images/proj9.jpg";
+import proj10 from "@/assets/images/proj10.jpg";
 
 const projects = [
   {
     title: "Reserve Management Automation",
     description:
       "Mission-critical system for TCMB (Central Bank of Turkey) to manage foreign currency reserves, gold operations, and risk management. Handles all types of indebtedness operations including foreign currency, securities, and derivative product purchases. Built with React, Java and microservice architecture.",
-    link: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
+    link: proj1,
     color: "#5196fd",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.tcmb.gov.tr",
@@ -17,7 +27,7 @@ const projects = [
     title: "Central Bank Correspondent Tracking",
     description:
       "Automation system tracking bank correspondents operating in the market, following and updating the accounts belonging to those banks, and handling all necessary transactions. Built with React.js and Java at TCMB.",
-    link: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop",
+    link: proj2,
     color: "#34d399",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.tcmb.gov.tr",
@@ -26,7 +36,7 @@ const projects = [
     title: "BIST Swap Automation",
     description:
       "Automation of principal clearing and daily netting transactions carried out manually within the scope of the BIST swap market. Digitized previously manual financial processes into a reliable and auditable platform. Built with React.js and Java.",
-    link: "https://images.unsplash.com/photo-1642790551116-18e4f3b3de44?w=800&auto=format&fit=crop",
+    link: proj3,
     color: "#8f89ff",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.tcmb.gov.tr",
@@ -35,7 +45,7 @@ const projects = [
     title: "Affected User Dashboard",
     description:
       "Real-time analytics dashboard at Huawei that allows customers to specify parameters and run ad-hoc queries to display information about customers affected during a network outage or similar events. Built with React.js, Java and Hadoop.",
-    link: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+    link: proj4,
     color: "#ed649e",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -44,7 +54,7 @@ const projects = [
     title: "Discovery",
     description:
       "Big data platform developed at Huawei to build programs related to wireless data and prepare maps in the formats that customers require. Enables large-scale wireless network data analysis and visualization.",
-    link: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&auto=format&fit=crop",
+    link: proj5,
     color: "#f59e0b",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -53,7 +63,7 @@ const projects = [
     title: "SmartCare",
     description:
       "Big data platform at Huawei used to develop programs related to cell data and prepare dashboards in the formats that customers require. Provides deep insight into mobile network performance metrics.",
-    link: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&auto=format&fit=crop",
+    link: proj6,
     color: "#10b981",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -62,7 +72,7 @@ const projects = [
     title: "Algeria Mobilis Network Analytics",
     description:
       "Provides general view of the Mobilis Network in Algeria, behavior analysis of subscribers, and ATM project progress preview. Built with React.js, Java and Hadoop at Huawei.",
-    link: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop",
+    link: proj7,
     color: "#f43f5e",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -71,7 +81,7 @@ const projects = [
     title: "BigData Enabling Platform",
     description:
       "Big data IDE enabling platform built at Huawei using Node.js, React.js, Eclipse Theia, Fusion Insight, GraphQL, Prisma and Scala — empowering data engineers to process large-scale datasets with a modern IDE experience.",
-    link: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop",
+    link: proj8,
     color: "#00bcd4",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -80,7 +90,7 @@ const projects = [
     title: "TIE — File Transformation System",
     description:
       "System to transform files from unstructured to structured format (like log files). Built using Hibernate, Spring Boot, Maven and React.js at Huawei. Enables automated data pipeline processing.",
-    link: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop",
+    link: proj9,
     color: "#a78bfa",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://www.huawei.com",
@@ -89,7 +99,7 @@ const projects = [
     title: "Guanyn — RESTful Middleware",
     description:
       "Restful Service provider and middle-layer API to serve various services to in-company applications at Gevision Group. Built with Java and powered by Dropwizard framework for high-performance service delivery.",
-    link: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&auto=format&fit=crop",
+    link: proj10,
     color: "#fb923c",
     githubLink: "https://github.com/alperenkaraca",
     liveLink: "https://github.com/alperenkaraca",
