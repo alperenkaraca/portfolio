@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Send, Phone, MapPin, Mail } from "lucide-react";
+import { Send, Phone, MapPin, Mail, Linkedin } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -112,7 +112,17 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">alperenkaraca@github.com</p>
+                    <p className="text-gray-400">alperenkaraca@live.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="bg-blue-500/10 p-3 rounded-lg">
+                    <Phone className="w-6 h-6 text-blue-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Phone</h3>
+                    <p className="text-gray-400">+90 542 279 0700</p>
                   </div>
                 </div>
 
@@ -122,7 +132,24 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Istanbul, Turkey</p>
+                    <p className="text-gray-400">Kadıköy, İstanbul</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="bg-cyan-500/10 p-3 rounded-lg">
+                    <Linkedin className="w-6 h-6 text-cyan-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">LinkedIn</h3>
+                    <a
+                      href="https://linkedin.com/in/alperenkaraca"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cyan-400 hover:underline"
+                    >
+                      linkedin.com/in/alperenkaraca
+                    </a>
                   </div>
                 </div>
               </div>
